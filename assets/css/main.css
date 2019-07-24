@@ -1,3 +1,52 @@
 * {
-  all: unset;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 70px;
+  /*background-color: pink;*/
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar li a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+}
+
+.navbar li:last-child a {
+  margin-right: 0px;
+}
+section {
+  min-height: 100vh;
+}
+
+.blank {
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
