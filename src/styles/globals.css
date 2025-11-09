@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #001A2C;
+  --color-secondary: #00233A;
+  --color-main-button: #00A19D;
+  --color-main-button-hover: #00C6CF;
+  --color-secondary-button: #FFB703;
+  --color-secondary-button-hover: #FFC53A;
+  --color-primary-typo: #F4F9E9;
+  --color-secondary-typo: #C7D5C1;
+  --color-muted-typo: #91A199;
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), sans-serif;
+}
