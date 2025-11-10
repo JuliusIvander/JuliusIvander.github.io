@@ -1,16 +1,6 @@
 import type { Metadata } from "next";
-import { Bitter, Raleway } from "next/font/google";
+import {BITTER_FONT, RALEWAY_FONT} from '@/styles/fonts';
 import '@/styles/globals.css';
-
-const bitter = Bitter({
-  variable: "--font-heading",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
-
-const raleway = Raleway({
-  variable: "--font-body",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
 
 export const metadata: Metadata = {
   title: "Julius's Portofolio",
@@ -25,7 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bitter.variable} ${raleway.variable} antialiased bg-primary`}
+        className={`
+          ${BITTER_FONT.variable} ${RALEWAY_FONT.variable} 
+          antialiased bg-primary 
+          container mx-auto px-8 md:px-32
+        `}
       >
         {children}
       </body>
