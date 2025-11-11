@@ -1,5 +1,22 @@
 {
     "datas": [
-
+        {
+            "title": "Full-stack Developer",
+            "company": "GorryWell",
+            "start": "April 2023",
+            "end": "Present",
+            "duration": "Apr 2023 - Present",
+            "description": "I collaborated with product managers and cross-functional teams to deliver seamless, scalable web solutions. Developed and maintained well-documented Node.js APIs, and built a responsive React interface that supported user activity reporting. Also implemented a gamification system with quizzes and challenges to drive user engagement and platform growth.",
+            "skills": ["Javascript", "HTML & CSS", "Node.js", "Express.js", "React", "MongoDB", "MySQL"]
+        },
+        {
+            "title": "Software Engineer Backend I",
+            "company": "Moladin",
+            "start": "June 2022",
+            "end": "February 2023",
+            "duration": "Jun 2022 - Feb 2023",
+            "description": "Developed and maintained Node.js APIs with documentation in Jira and Postman, supported by unit testing in Jest. Collaborated with product managers and cross-functional teams to enable electronic signatures for vehicle handovers, improving process efficiency. Implemented invoice generation for transaction reports and handled production hotfixes to ensure stable system performance.",
+            "skills": ["Javascript", "Node.js", "Express.js", "MySQL", "Jest"]
+        }
     ]
 }

@@ -1,5 +1,18 @@
 {
     "datas": [
-
+        {
+            "title": "Amaterasun - Sunnies Physical Challenge",
+            "description": "Amaterasun's campaign landing page project. In this project, I developed a responsive Laravel interface and ensured seamless integration with the backend through close collaboration with the team.",
+            "skills": ["PHP", "Laravel"],
+            "repository": null,
+            "link": "https://amaterasun.digitalnative.id"
+        },
+        {
+            "title": "DailyTax",
+            "description": "Developed scalable Node.js APIs for Indonesia's tax management CMS, improving performance and reliability. Documented APIs in Postman to speed up integration and worked with cross-functional teams to ensure smooth delivery.",
+            "skills": ["Javascript", "Node.js", "Express.js", "MySQL"],
+            "repository": null,
+            "link": null
+        }
     ]
 }

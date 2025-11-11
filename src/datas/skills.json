@@ -1,0 +1,20 @@
+{
+    "datas": [
+        {
+            "title": "Language",
+            "skills": ["Indonesia", "English"]
+        },
+        {
+            "title": "Backend",
+            "skills": ["Javascript", "PHP", "Express.js", "Laravel"]
+        },
+        {
+            "title": "Frontend",
+            "skills": ["Javascript", "PHP", "React", "Laravel"]
+        },
+        {
+            "title": "Others",
+            "skills": ["MongoDB", "MySQL"]
+        }
+    ]
+}
