@@ -17,10 +17,10 @@ export default function Home() {
     <>
       <NavBar />
       <section className="mb-[41px] md:mb-[81px]">
-        <h1 className="text-primary-typo font-bold text-3xl mb-[4px] md:text-6xl md:mb-[12px]">Hello, I&apos;m Julius Ivander</h1>
-        <h2 className="text-secondary-typo font-normal text-xl mb-[12px] md:text-[40px] md:mb-[35px]">Full-stack Developer</h2>
-        <p className="text-muted-typo font-light text-xs md:text-2xl mb-[12px] md:mb-[24px]">
-          I build scalable backend systems and end-to-end web applications. <br className="hidden md:block"/>
+        <h1 className="text-primary-typo font-bold text-4xl mb-[4px] md:text-6xl md:mb-[12px]">Hello, I&apos;m Julius Ivander</h1>
+        <h2 className="text-secondary-typo font-normal text-2xl mb-[12px] md:text-[40px] md:mb-[35px]">Full-stack Developer</h2>
+        <p className="text-muted-typo font-light text-justify text-base md:text-2xl mb-[16px] md:mb-[24px]">
+          I build scalable backend systems and end-to-end web applications. <br />
           I am passionate on solving problems with code mainly with Javascript.
         </p>
         <div className="flex gap-4">
@@ -29,7 +29,7 @@ export default function Home() {
               src="github.svg"
               width={16}
               height={14}
-              className="w-[16px] h-[14px] md:w-[32px] md:h-[30px]"
+              className="w-[30px] h-[28px] md:w-[40px] md:h-[42px]"
               alt="github"
             />
           </Link>
@@ -38,7 +38,7 @@ export default function Home() {
               src="linkedin.svg"
               width={16}
               height={16}
-              className="w-[16px] h-[16px] md:w-[32px] md:h-[32px] fill-primary-typo"
+              className="w-[30px] h-[30px] md:w-[42px] md:h-[42px] fill-primary-typo"
               alt="linkedin"
             />
           </Link>
@@ -56,13 +56,13 @@ export default function Home() {
                 gap-y-[4px] md:gap-y-[0px]
               "
             >
-              <p className="text-muted-typo font-light text-[9px] md:text-lg basis-full md:basis-1/5">{data.duration}</p>
+              <p className="text-muted-typo font-light text-base md:text-lg basis-full md:basis-1/5">{data.duration}</p>
               <div className="basis-full md:basis-4/5">
-                <h3 className="text-primary-typo font-medium text-[9px] md:text-lg mb-[8px] md:mb-[16px]">{`${data.title} - ${data.company}`}</h3>
-                <p className="text-secondary-typo font-light text-justify text-[8px] md:text-base mb-[8px] md:mb-[16px]">{data.description}</p>
+                <h3 className="text-primary-typo font-medium text-lg md:text-2xl mb-[8px] md:mb-[16px]">{`${data.title} - ${data.company}`}</h3>
+                <p className="text-secondary-typo font-light text-justify text-sm md:text-lg mb-[8px] md:mb-[16px]">{data.description}</p>
                 <div className="flex flex-wrap gap-[4px] md:gap-[8px]">
                   {data.skills.map((label, index) => (
-                    <Label key={index} text={label}/>
+                    <Label key={index} text={label} />
                   ))}
                 </div>
               </div>
@@ -72,7 +72,7 @@ export default function Home() {
         <Button 
           className="
             bg-main-button hover:bg-main-button-hover 
-            text-primary text-[8px] md:text-[16px]
+            text-primary text-base md:text-xl font-medium
             px-[8px] py-[4px] md:px-[16px] md:py-[8px]
             rounded-md cursor-pointer inline-block
           "
@@ -88,14 +88,14 @@ export default function Home() {
               key={index} 
               type="project"
             >
-              <h3 className="text-primary-typo font-medium text-[9px] md:text-lg mb-[6px] md:mb-[12px]">{data.title}</h3>
-              <p className="text-secondary-typo font-light text-[7px] md:text-sm mb-[8px] md:mb-[16px]">{data.description}</p>
+              <h3 className="text-primary-typo font-medium text-lg md:text-2xl mb-[8px] md:mb-[16px]">{data.title}</h3>
+              <p className="text-secondary-typo font-light text-justify text-sm md:text-lg mb-[8px] md:mb-[16px]">{data.description}</p>
               <div className="flex flex-wrap gap-[4px] md:gap-[8px] mb-[14px] md:mb-[24px]">
                 {data.skills.map((label, index) => (
                   <Label key={index} text={label} />
                 ))}
               </div>
-              <div className="flex gap-4 text-primary text-center text-[8px] md:text-[16px]">
+              <div className="flex gap-4 text-primary text-center text-sm md:text-lg">
                 <Button 
                   url={data.repository}
                   text="Repository"
@@ -131,13 +131,13 @@ export default function Home() {
                 gap-y-[4px] md:gap-y-[0px]
               "
             >
-              <p className="text-muted-typo font-light text-[9px] md:text-lg basis-full md:basis-1/5">{data.title}</p>
+              <p className="text-muted-typo font-light text-base md:text-lg basis-full md:basis-1/5">{data.title}</p>
               <div className="flex flex-wrap basis-full md:basis-4/5 gap-[4px] md:gap-[8px]">
                 {data.skills.map((label, index) => (
                   <Label 
                     key={index} 
                     text={label}
-                    additionalClass="font-normal text-[9px] md:!text-base"
+                    additionalClass="font-normal text-base md:!text-base"
                   />
                 ))}
               </div>

@@ -9,7 +9,7 @@
         },
         {
             "title": "DailyTax",
-            "description": "Developed scalable Node.js APIs for Indonesia's tax management CMS, improving performance and reliability. Documented APIs in Postman to speed up integration and worked with cross-functional teams to ensure smooth delivery.",
+            "description": "Developed scalable Node.js APIs for tax management CMS, improving performance and reliability. Documented APIs in Postman to speed up integration and worked with cross-functional teams to ensure smooth delivery.",
             "skills": ["Javascript", "Node.js", "Express.js", "MySQL"],
             "repository": null,
             "link": null
